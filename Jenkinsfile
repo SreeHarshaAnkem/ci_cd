@@ -5,7 +5,7 @@ pipeline{
     stages{
         stage("A"){
             steps{
-                echo "========executing A========"
+                echo "========At stage A, executing A========"
             }
             
         }
